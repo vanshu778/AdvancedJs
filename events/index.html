@@ -38,7 +38,17 @@
         //document.getElementById('myBtn').onclick= () => "alert('Welcome')";
 
          document.getElementById('myBtn').onclick= function() { alert('Welcome');
-    };
+        };
+
+        document.getElementById('myBtn1').onmouseover= function() { alert('Welcome');
+        };
+
+        //addEventListner
+        document.getElementById('myBtn2').addEventListener('click', function() { alert('Welcome');
+        })
+
+        document.getElementById('myBtn3').addEventListener('mouseover', () => { alert('Welcome');
+        })
     </script>
 </body>
 </html>
