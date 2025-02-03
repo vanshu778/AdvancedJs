@@ -1,0 +1,44 @@
+<!--In JavaScript, there are several ways to attach event handlers to HTML elements.-->
+<!--Here are 3 common methods:-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            margin-bottom: 2.4rem;
+        }
+    </style>
+</head>
+<body>
+    <!--=======Start Inline Event======-->
+    <h1>Inline Event</h1>
+    <button onclick="alert('Welcome')">greeting</button>
+    <button ondblclick="alert('welcome')">greeting again</button>
+    <button onmouseover="alert('welcome again')">greeting</button>
+    <!--=======End Inline Event ======-->
+
+    <!--Start dom Event Handler-->
+    <h1>Dom Event Handler</h1>
+    <button id="myBtn">greeting</button>
+    <button id="myBtn1">greeting again</button>
+    <!--End dom event handler-->
+
+    <!--Start addeventlistener event handler-->
+    <h1>addeventlistener event handler</h1>
+    <button id="myBtn2">greeting</button>
+    <button id="myBtn3">greeting again</button>
+    <!--End addeventlistener event handler -->
+
+    <script>
+        //document.getElementById('myBtn').onclick= () => "alert('Welcome')";
+
+         document.getElementById('myBtn').onclick= function() { alert('Welcome');
+    };
+    </script>
+</body>
+</html>
