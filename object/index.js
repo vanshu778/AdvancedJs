@@ -45,7 +45,7 @@
   //* =================================
   //? You can add new properties or modify existing ones:
   // person["job"] = "web dev";
-  // // person.age = 18;
+  // person.age = 18;
   // person["age"] = 20;
   
   // console.log(person);
@@ -116,7 +116,7 @@
   
   // let obj1 = obj;
   
-  // obj1.name = "thapa technical";
+  // obj1.name = "vanshika thesiya";
   // console.log(obj1);  
   // console.log("original", obj);
   
@@ -128,7 +128,7 @@
   // let obj1 = {};
   // let newObj = Object.assign(obj1, obj);
   
-  // newObj.name = "thapa technical";
+  // newObj.name = "vanshika thesiya";
   // console.log(newObj);
   // console.log("original", obj);
   
@@ -143,8 +143,8 @@
   // const obj2 = { name: "vinod" };
   // const obj3 = obj1;
   
-  // // const isEqual = obj1 == obj2 ? true : false;
-  // const isEqual = obj1 == obj3 ? true : false;
+  // const isEqual = obj1 === obj2 ? true : false;
+  // // const isEqual = obj1 == obj3 ? true : false;
   // console.log(isEqual);
   
   //* =====================================
@@ -191,15 +191,7 @@
   // this is not a variable. It is a keyword. You cannot change the value of this.
   // ("use strict");
   
-  // x = 5;
-  // console.log(x);
-  
-  // function callme() {
-  //   console.log(this);
-  // }
-  
-  // callme(); // try to run on browser console
-  
+    
   //todo  Let's check the this keyword values in an object methods
   
   //* Regular Function Expression:

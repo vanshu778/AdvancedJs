@@ -15,7 +15,7 @@
 // const fun2 = () => {
 //     setTimeout(() => {
 //       console.log("fun2 starts and ends");
-//     }, 2000);
+//     }, 2000);   //async operation 
 //   };
   
 //   const fun1 = () => {

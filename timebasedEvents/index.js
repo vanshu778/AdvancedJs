@@ -6,7 +6,7 @@
 
 //? The setTimeout function is used to execute a function or code block after aspecified delay in milliseconds.
 // function delayedFunction(x) {
-//   console.log("This function was delayed by 2000 milliseconds (2 seconds).",x);
+//   console.log("This function was delayed by  2000 milliseconds (2 seconds).",x);
 // }
 // setTimeout(delayedFunction, 2000); // Delay of 2 seconds
 

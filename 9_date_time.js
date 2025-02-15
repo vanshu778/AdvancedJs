@@ -71,7 +71,7 @@
 //todo Note:
 //? 1: JavaScript counts months from 0 to 11:
 // ?January = 0, December = 11
-//? 2: JavaScript Stores Dates as Milliseconds: JavaScript stores dates as number of milliseconds since January 01, 1970.
+//? 2: JavaScript Stores Dates kas Milliseconds: JavaScript stores dates as number of milliseconds since January 01, 1970.
 
 // Date String Format: If the dateString is in a recognizable format, the Date object will
 // be created accordingly.
@@ -117,7 +117,7 @@ const date = new Date();
 // JavaScript Get Time Methods / Getting Components:
 //*=======================================
 
-// const currentTime = new Date();
+const currentTime = new Date();
 
 // const hours = currentTime.getHours();
 // const minutes = currentTime.getMinutes();
